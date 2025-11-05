@@ -1,8 +1,8 @@
-interval_minutes: 10
-alert_threshold_percent: [5, 10, 20]
+scheduler_interval_minutes: 10
+alert_threshold_percents: [5, 10, 20]
 
 email:
-  is_feature_enabled: False
+  is_feature_enabled: True
   sender: "your_email_here@gmail.com"
   password: "your_app_password_here"
   smtp_server: "smtp.example.com"
